@@ -1,7 +1,7 @@
 @charset "utf-8";
+/* @import "https://fonts.googleapis.com/css?family=Mukta'); */
 
-
-/*
+/* 
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
    Tutorial Case
@@ -11,7 +11,6 @@
    Date:   
    
    Filename: tss_styles.css
-
 */
 
 
@@ -21,32 +20,50 @@ html {
     background-color: hsl(27, 72%, 72%);
 }
 
+
+section h1 {
+    color: red
+}
+
+
 body{
     color: rgb(91, 91, 91);
-    background-color: ivory
+    background-color: white;
+    /* font-family: Verdana, Geneva, sans-serif; */
+    /* font-family: 'roboto', sans-serif; */
 }
 
 
 /* Heading Styles */
+
 h1 {
     color: white;
-    background-color: rgb(222,128,60)
+    background-color: rgb(222,128,60);
 }
 
-h2 {
+
+article#about_tss h1 {
     color: white;
-    background-color: rgb(235, 177, 131)
+    background-color: rgb(235, 177, 131);
+
 }
 
+article#about_tss h2 {
+    color: white;
+    background-color: rgb(235, 177, 131);
+}
 
-
+article.syllabus h1, 
+article.syllabus h2 {
+    background-color: rgb(255, 185, 255);
+    color: rgb(101, 101, 101);
+}
 
 
 /* Aside and Blockquote Styles */
-
-
-
-
+aside blockquote {
+    color: rgb(232, 165, 116);
+}
 
 /* Navigation Styles */	
 
